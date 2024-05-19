@@ -85,3 +85,10 @@ As a list can contain many data types, not all methods will work on all lists
 - You cannot change the items in a set BUT you can add an additional single item with **add()** or add new **multiple items as a list with update()**
 - To remove an item use **discard()** rather than **remove()** as it will error where the item does not exist.
 - Sets are unordered so using **pop()** is not recommended 
+
+### Set operators
+- Sets have mathematical operations like union, intersection, difference, and symmetric difference.
+- A union is all values that are in either set or both. | is the symbol for union.
+- The intersection is the values that are in both sets. & is the symbol for intersection.
+- The difference is the values that are in the first set but not the second. - is the symbol for difference.
+- he symmetric difference is all values that are in one of the sets but not both of them. ^ is the symbol for symmetric difference.
