@@ -10,3 +10,9 @@ for item in myMixedlist:
 for item in myMixedlist:
     if(type(item)==list):
         print(item)
+
+# append older list in new empty one
+newMixedList = []
+for item in myMixedlist:
+    newMixedList.append(item)
+print(newMixedList)
