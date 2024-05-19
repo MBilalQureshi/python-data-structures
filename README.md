@@ -77,3 +77,11 @@ As a list can contain many data types, not all methods will work on all lists
 - setdefault()	Returns the value of the specified key. If the key does not exist: insert the key, with the specified value
 - update()	Updates the dictionary with the specified key:value pairs
 - values()	Returns a list of all the values in the dictionary. Used in the previous unit.
+
+## Python - sets
+- It is a mathematical concept of a collection of items with no duplicates. It also uses curly brackets.
+- To create an empty set; you have to use the method **set()** as {} would create an empty dictionary
+- You can use the in keyword to see if an item is in a set.
+- You cannot change the items in a set BUT you can add an additional single item with **add()** or add new **multiple items as a list with update()**
+- To remove an item use **discard()** rather than **remove()** as it will error where the item does not exist.
+- Sets are unordered so using **pop()** is not recommended 
