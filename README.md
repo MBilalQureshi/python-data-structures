@@ -31,3 +31,12 @@ list.count(x)	Return the number of times x appears in the list.
 list.sort(key=None, reverse=False)	Sort the items of the list in place
 list.reverse()	Reverse the elements of the list in place.
 list.copy()	Return a copy of the list. Equivalent to a[:].
+
+## Python Tuples
+Unlike a list, it is not changeable
+It can contain duplicate items. 
+Those items can be of different types such as strings, integers, floats or even another tuple.
+Creating a tuple is referred to as packing. So when you want to get the values back, it is referred to as unpacking.
+It is also possible to get a value with indexing.
+So why choose a tuple over a list? As it is not changeable, it can be used where you have a constant set of values.
+Tuples are also more memory efficient
