@@ -40,3 +40,9 @@ Creating a tuple is referred to as packing. So when you want to get the values b
 It is also possible to get a value with indexing.
 So why choose a tuple over a list? As it is not changeable, it can be used where you have a constant set of values.
 Tuples are also more memory efficient
+
+## Python Dictionaries
+- You would choose a dictionary as a data structure when you have values you want to associate with a key.
+- To delete a key/value pair use **del** and the key.
+- To list the keys in the dictionary, you can use **list()** or **sorted()** 
+- If you just want to know if a key exists within the dictionary, use the **in** keyword.
