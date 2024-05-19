@@ -64,3 +64,16 @@ As a list can contain many data types, not all methods will work on all lists
 - If we attempted to get the value of a **nonexistent key**, then an error would occur. To avoid this you can use the **get()** method which will get the value if the key exists and return **None** if it does not.
 - If we want to get a list of the keys only you can use the **keys()** method and wrap that in a **list()** function. The same syntax but using values or items will get a list of the dictionary values or items instead.
 - See dict.py file to see this in action.
+
+### Dictionary Methods
+- clear()	Removes all the elements from the dictionary
+- copy()	Returns a copy of the dictionary
+- fromkeys()	Returns a new dictionary with the specified keys and value
+- get(keyname, value)	Returns the value of the specified keyname. Used in the previous unit. Returns default None if the keyname doesn't exist unless you override this default with a optional value.
+- items()	Returns a list containing a tuple for each key:value pair
+- keys()	Returns a list containing the dictionary's keys. Used in the previous unit.
+- pop()	Removes the element with the specified key
+- popitem()	Removes the last inserted key:value pair
+- setdefault()	Returns the value of the specified key. If the key does not exist: insert the key, with the specified value
+- update()	Updates the dictionary with the specified key:value pairs
+- values()	Returns a list of all the values in the dictionary. Used in the previous unit.
