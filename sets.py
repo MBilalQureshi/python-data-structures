@@ -1,3 +1,12 @@
+# ways to create a set, i recommend first as it is much simpler
+directions = {'north', 'south', 'east', 'west'}
+print(directions)
+print(type(directions))
+directions1 = set(['north', 'south', 'east', 'west'])
+print(directions1)
+print(type(directions1))
+
+# -------------------------------------
 breakfast = {'bacon', 'egg', 'spam', 'spam', 'spam', 'spam', 'spam'}
 print(breakfast)
 

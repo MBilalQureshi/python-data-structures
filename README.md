@@ -92,3 +92,10 @@ As a list can contain many data types, not all methods will work on all lists
 - The intersection is the values that are in both sets. & is the symbol for intersection.
 - The difference is the values that are in the first set but not the second. - is the symbol for difference.
 - he symmetric difference is all values that are in one of the sets but not both of them. ^ is the symbol for symmetric difference.
+
+## Iterating over Python Data Structures
+- Using **for loop** to iterate over **strings and lists**.
+- The simplest case is to use the **in** keyword to iterate through the **string or list**.
+- Integers as indexes for the list. This could be done using **range() and len()**.
+- If we needed access to both keys and values, we’d have to use a **dictionary** method called **.items()**
+- Here is how you would iterate over a **set**. It is much like for a list. However, remember that the order may not remain static. You could also use **range() and len()** to get index values.
