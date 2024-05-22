@@ -99,3 +99,18 @@ As a list can contain many data types, not all methods will work on all lists
 - Integers as indexes for the list. This could be done using **range() and len()**.
 - If we needed access to both keys and values, we’d have to use a **dictionary** method called **.items()**
 - Here is how you would iterate over a **set**. It is much like for a list. However, remember that the order may not remain static. You could also use **range() and len()** to get index values.
+
+## List Comprehension
+- numbers = []
+for x in range(10):
+    numbers.append(x)
+(In list comprehension) **numbers = [x for x in range(10)]**
+
+- combination = []
+for x in [1,2,3]:
+    for y in [3,1,4]:
+        if x != y:
+            combination.append((x,y))
+(In list comprehension) **combination = [(x, y) for x in [1,2,3] for y in [3,1,4] if x != y]**
+
+- **variable = [define a variable, (loop)for defined variable in cart, (condition) if defined variable % 2 == 0]**
